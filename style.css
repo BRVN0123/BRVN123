@@ -1,0 +1,46 @@
+#pantalladividida{
+    display: flex;
+}
+.izquierda{ 
+    background-image: url(FondoIzquierdo.jpg);
+    width: 30%;
+    height: 100vh;
+    background-repeat: repeat;
+}
+.derecha{
+    background-image: url(FondoDerecho.jpg);
+    background-repeat: repeat;
+    width: 70%;
+    height: 100vh;
+    color: white;
+}
+.derecha p, .derecha li{
+    color: white;
+}
+#NombreCentral{
+    text-align:center;
+    font-family:"Arial Narrow Bold";
+    font-size:50px;
+}
+p,li{
+    font-family: cursive;
+    color: black;
+}
+
+
+/**Comienza edición de foto de perfil */
+#FotoPerfil{
+   width:100%;
+   height: auto;
+   margin-left:auto;
+   margin-right: auto;
+   display:block;
+   border-style:solid;
+}
+img{
+    transition: all 0.5s linear;
+}
+img:hover{
+    transform:scale(1.2) 
+    translate(0,18%);
+}
